@@ -1,49 +1,148 @@
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
-    1. Global Styles
-    2. Typografie
-    3. Areas
-        3.1 Header
-        3.2 Testimonial
-        3.3 Support
-        3.4 Faq
-        3.5 Footer
-////////////////////////////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    align-content: center;
+}
+
+footer {
+    font-style: italic;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1C2B32;
+}
+
+h3 {
+    font-weight: 600;
+    text-align: center;
+}
+
+section {
+    margin: 50px 0;
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+span {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header-text {
+    padding 10px 0;
+    text-align: center;
+    height: 500px;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+}
+
+.domein {
+    margin: -10px;
+    border-radius: 30px 0 0 30px;
+    padding: 10px 20px;
+    text-align: left;
+    width: 250px;
+    background-color: transparent;
+    position: relative;
+    top: -90px;
+    color: black;
+}
+
+.beschikbaarheid {
+    border-radius: 0 30px 30px 0;
+    background-color: #1C2B32;
+    padding: 10px 30px;
+    color: white;
+    position: relative;
+    top: -90px;
+}
+
+.title {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 70px;
+    position: relative;
+    top: -90px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0 0 15px 0;
+    position: relative;
+    top: -90px;
+}
 
 
+.callcenter {
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0;
+}
 
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
+.box {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 50px 15px;
+    margin: 30px 0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
 
+.avatar {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
 
+.quote {
+    width: 20px;
+    height: 20px;
+}
 
-/*////////////////////////
-    2. Typography
-////////////////////////*/
+.contact-opnemen {
+    color: white;
+    background-color: #1C2B32;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
 
+.faq {
+    cursor: pointer;
+}
 
+.answers {
+    background-color: #899CA0;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+}
 
-/*////////////////////////
-    3. Areas
-////////////////////////*/
+.author {
+    font-style: italic;
+}
 
-
-
-/*///////////// 3.1 Header /////////////*/
-
-
-
-/*///////////// 3.2 Testimonial /////////////*/
-
-
-
-/*///////////// 3.3 Support /////////////*/
-
-
-
-/*///////////// 3.4 Faq /////////////*/
-
-
-
-/*///////////// 3.5 Footer /////////////*/
+input::placeholder {
+    color: black;
